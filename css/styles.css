@@ -1,0 +1,38 @@
+#main {
+  width: 810px;
+  margin: 0px auto;
+}
+
+.subTitle {
+  padding-bottom: 20px;
+  display: block;
+}
+
+#inputText {
+  display: block;
+  width: 500px;
+  float: left;
+  margin-right: 40px;
+}
+
+a {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+i {
+  float: right;
+}
+
+i:hover {
+  background-color: #26a69a;
+  color: white;
+  cursor: pointer;
+}
+
+td span {
+  cursor: pointer;
+}

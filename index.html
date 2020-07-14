@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD - Básico</title>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>CRUD - Básico em Javascript</h1>
+      <p class="subTitle">
+        Este é um CRUD criado para estudos e fixação do conteudo aprendido até
+        agora no Bootcamp do IGTI (Instituto de Gestão e Tecnologia da
+        Informação) utilizando apenas Javascript, HTML e CSS/Materialize.
+      </p>
+      <form action="">
+        <div class="input-field col s6">
+          <input id="inputText" type="text" class="validate" autocomplete="off"/>
+          <label for="inputText">Nome</label>
+        </div>
+        <!-- <label for="inputText">Nome</label>
+        <input type="text" name="inputText" id="inputText" /> -->
+      </form>
+      <a class="waves-effect waves-light btn">Salvar</a>
+
+      <div class="clear"></p>
+      <div id="listNames"></div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
